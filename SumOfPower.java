@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class SumOfPower {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            sum += (int)Math.pow(i, n);
+        }
+
+        System.out.println(sum);
+    }
+}
